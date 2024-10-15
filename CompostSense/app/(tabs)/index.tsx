@@ -8,11 +8,9 @@ const Stack = createStackNavigator();
 
 export default function IndexScreen() {
   return (
-    <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="SensorDetails" component={SensorDetailsScreen} />
       </Stack.Navigator>
-    </NavigationContainer>
   );
 }
