@@ -1,11 +1,14 @@
 import React from 'react';
-import { Image, StyleSheet, Button, Dimensions } from 'react-native';
+import { Image, Button, Dimensions } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '@/components/navigation/AppNavigator';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+
+//import styles
+import styles from '../styles/HOmeScreenStyles';
 
 type HomeScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
 
@@ -61,21 +64,3 @@ export default function HomeScreen() {
     </ParallaxScrollView>
   );
 }
-
-const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-  },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 16, 
-  },
-  reactLogo: {
-    height: 250, 
-    position: 'absolute',
-    bottom: 0,
-    left: 0,
-  },
-});
