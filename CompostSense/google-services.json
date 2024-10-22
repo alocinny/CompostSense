@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "26527154196",
+    "project_id": "compostsense",
+    "storage_bucket": "compostsense.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26527154196:android:b0c5be20ea1829bd732701",
+        "android_client_info": {
+          "package_name": "com.compostsense.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuVqpsbSxoJsCF_S6vugsUW2V9xdr_BgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -44,18 +44,18 @@ export default function HomeScreen() {
       </ThemedView>
 
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Sensor 3: CO2</ThemedText>
+        <ThemedText type="subtitle">Sensor 3: Nível de CO2</ThemedText>
         <Button
           title="Ver Detalhes"
-          onPress={() => navigation.navigate('CO2Sensor', { sensor: 'Sensor de CO2', value: 7 })}
+          onPress={() => navigation.navigate('CO2Sensor', { sensor: 'Sensor de CO2', value: 33 })}
         />
       </ThemedView>
 
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Sensor 4: Nível de Oxigênio</ThemedText>
+        <ThemedText type="subtitle">Sensor 4: Nível de Amonia</ThemedText>
         <Button
           title="Ver Detalhes"
-          onPress={() => navigation.navigate('OxigenioSensor', { sensor: 'Sensor de Oxigênio', value: 21 })}
+          onPress={() => navigation.navigate('AmoniaSensor', { sensor: 'Sensor de Amonia', value: 3 })}
         />
       </ThemedView>
     </ParallaxScrollView>

@@ -14,9 +14,12 @@
     },
     "ios": {
       "bundleIdentifier": "com.compostsense.app",
+      "googleServicesFile": "./firebase/GoogleService-Info.plist",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.compostsense.app",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"

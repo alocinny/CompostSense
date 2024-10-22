@@ -3,17 +3,18 @@ import { Text } from 'react-native';
 import { RouteProp } from '@react-navigation/native';
 import { RootStackParamList } from '@/components/navigation/AppNavigator';
 
-type OxigenioSensorRouteProp = RouteProp<RootStackParamList, 'OxigenioSensor'>;
+type AmoniaSensorRouteProp = RouteProp<RootStackParamList, 'AmoniaSensor'>;
 
-function OxigenioSensorScreen({ route }: { route: OxigenioSensorRouteProp }) {
+function AmoniaSensorScreen({ route }: { route: AmoniaSensorRouteProp }) {
   const { sensor, value } = route.params;
 
   return (
     <>
       <Text>Sensor: {sensor}</Text>
-      <Text>Nível de Oxigênio: {value}%</Text>
+      <Text>Nível de Amonia: {value}%</Text>
     </>
   );
 }
 
-export default OxigenioSensorScreen;
+export default AmoniaSensorScreen;
+
